@@ -11,5 +11,5 @@ keywords = ["leptonica", "image"]
 license = "MIT"
 
 [dependencies]
-leptonica-sys = "0.3.4"
+leptonica-sys = { git = "https://github.com/vim-zz/leptonica-sys", branch = "fix_macos" }
 thiserror = "1.0"
